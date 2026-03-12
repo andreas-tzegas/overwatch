@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hero Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <h1>HERO HUB</h1>
+  <div class="global-progress">
+    <span id="totalProgress">0%</span>
+    <button id="resetBtn">Reset All</button>
+  </div>
+</div>
+
+<div class="container">
+
+  <section>
+    <div class="section-header">
+      <h2 class="tank">TANK</h2>
+      <span class="role-progress" id="tank-progress"></span>
+    </div>
+    <div class="hero-grid" id="tank"></div>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <h2 class="damage">DAMAGE</h2>
+      <span class="role-progress" id="damage-progress"></span>
+    </div>
+    <div class="hero-grid" id="damage"></div>
+  </section>
+
+  <section>
+    <div class="section-header">
+      <h2 class="support">SUPPORT</h2>
+      <span class="role-progress" id="support-progress"></span>
+    </div>
+    <div class="hero-grid" id="support"></div>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
