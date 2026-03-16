@@ -1,16 +1,16 @@
 const heroes = {
   tank: [
-    "d.va","doomfist","Domina","Junker_Queen","hazard","mauga","orisa","reinhardt","roadhog","ramattra",
-    "sigma","winston","wrecking-ball","zarya"
+    "D.va","Doomfist","Domina","Junker_Queen","Hazard","Mauga","Orisa","Reinhardt","Roadhog","Ramattra",
+    "Sigma","Winston","Wrecking-ball","Zarya"
   ],
   damage: [
-    "Anran","ashe","bastion","cassidy","echo","emre","freja","genji","hanzo","junkrat",
-    "mei","pharah","reaper","sojourn","soldier-76",
-    "sombra","symmetra","torbjorn","tracer","Vendetta","Venture","widowmaker"
+    "Anran","Ashe","Bastion","Cassidy","Echo","Emre","Freja","Genji","Hanzo","Junkrat",
+    "Mei","Pharah","Reaper","Sojourn","Soldier-76",
+    "Sombra","Symmetra","Torbjorn","Tracer","Vendetta","Venture","Widowmaker"
   ],
   support: [
-    "ana","baptiste","brigitte","illari","Jetpack-Cat","kiriko","Lifeweaver","lucio",
-    "mercy","Mizuki","moira","Wuyang","zenyatta"
+    "Ana","Baptiste","Brigitte","Illari","Jetpack-Cat","Kiriko","Lifeweaver","Lucio",
+    "Mercy","Mizuki","Moira","Wuyang","Zenyatta"
   ]
 };
 let selectedHeroes = JSON.parse(localStorage.getItem("selectedHeroes")) || [];
