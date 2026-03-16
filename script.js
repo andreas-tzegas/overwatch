@@ -1,7 +1,7 @@
 const heroes = {
   tank: [
-    "D.va","Doomfist","Domina","Junker_Queen","Hazard","Mauga","Orisa","Reinhardt","Roadhog","Ramattra",
-    "Sigma","Winston","Wrecking-ball","Zarya"
+    "D.Va","Doomfist","Domina","Junker_Queen","Hazard","Mauga","Orisa","Reinhardt","Roadhog","Ramattra",
+    "Sigma","Winston","Wrecking-Ball","Zarya"
   ],
   damage: [
     "Anran","Ashe","Bastion","Cassidy","Echo","Emre","Freja","Genji","Hanzo","Junkrat",
