@@ -1,15 +1,15 @@
 const heroes = {
   tank: [
-    "D.Va","Doomfist","Domina","Junker_Queen","Hazard","Mauga","Orisa","Reinhardt","Roadhog","Ramattra",
+    "D.Va","Doomfist","Domina","Junker_Queen","Hazard","Mauga","Orisa","reinhardt","Roadhog","Ramattra",
     "Sigma","Winston","Wrecking-Ball","Zarya"
   ],
   damage: [
-    "Anran","Ashe","Bastion","Cassidy","Echo","Emre","Freja","Genji","Hanzo","Junkrat",
-    "Mei","Pharah","Reaper","Sojourn","Soldier-76",
-    "Sombra","Symmetra","Torbjorn","Tracer","Vendetta","Venture","Widowmaker"
+    "Anran","Ashe","Bastion","cassidy","Echo","Emre","Freja","Genji","Hanzo","Junkrat",
+    "Mei","pharah","Reaper","Sojourn","Soldier-76",
+    "Sombra","Symmetra","torbjorn","tracer","Vendetta","Venture","Widowmaker"
   ],
   support: [
-    "Ana","Baptiste","Brigitte","Illari","Jetpack-Cat","Kiriko","Lifeweaver","Lucio",
+    "Ana","Baptiste","Brigitte","Illari","Jetpack-Cat","kiriko","Lifeweaver","lucio",
     "Mercy","Mizuki","Moira","Wuyang","Zenyatta"
   ]
 };
